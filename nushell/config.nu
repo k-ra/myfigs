@@ -19,8 +19,8 @@ alias cb = cd `..`
 # configure things
 alias settings = hx ~/myfigs/nushell
 alias cn = hx ~/myfigs/nushell
-alias ca = hx ~/.config/alacritty/alacritty.toml
-alias ch = hx ~/.config/helix
+alias ca = hx ~/myfigs/alacritty
+alias ch = hx ~/myfigs/helix
 
 alias yay = bun --bun run dev
 
