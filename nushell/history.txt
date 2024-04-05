@@ -224,3 +224,33 @@ l
 c nushell
 l
 cn
+lg
+ls
+l
+cb
+l
+cb
+cn
+cd .config
+ls
+cp alacritty ~/myfigs/alacritty --recursive
+cp helix ~/myfigs/helix --recursive
+cb
+c myfigs
+l
+cb
+c .config
+ls
+rm -rf alacritty; ln -s ~/myfigs/alacritty/ ~/.config/alacritty
+l
+rm -rf alacritty; ln -s ~/myfigs/helix/ ~/.config/helix
+l
+rm -rf alacritty; ln -s ~/myfigs/alacritty/ ~/.config/alacritty
+l
+rm -rf helix; ln -s ~/myfigs/helix/ ~/.config/helix
+l
+ca
+ch
+cb
+c myfigs
+l
