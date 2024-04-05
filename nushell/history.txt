@@ -1,0 +1,226 @@
+brew install helix
+cd .config
+ls
+cd StardewValley/
+ls
+cd ..
+mkdir alacritty
+cd alacritty/
+hx alacritty.toml
+q
+quit
+exit
+cd .config
+hx
+config nu
+$env.EDITOR = "hx"
+config nu
+hx
+brew
+which brew
+which nu
+cd ..
+cd Library/
+cd `Application Support/nushell/`
+hx
+brew
+which nu
+hx
+brew
+config nu
+$env.EDITOR = "hx"
+config nu
+b
+l
+cn
+b install zoxide
+ch
+c .config
+mkdir helix
+hx config.toml
+ch
+cn
+l
+cp config.toml helix/config.toml
+l
+rm config.toml
+ch
+q
+z
+b
+zoxide
+cn
+z
+l
+cn
+bi btop
+b install btop
+cn
+q
+hx
+l
+c Documents/
+l
+cd ..
+l
+ls
+cd documents
+ls
+cd ..
+ls Desktop/
+c Documents/
+l
+c Documents/
+l
+c cs178/
+l
+c trundle
+l
+c Untitled/
+l
+c trundle/
+l
+cb
+l
+cb
+l
+n
+bun
+ni
+bun install
+bun run dev
+lg
+cn
+brew
+lazygit
+brew list
+bi lazygit
+lg
+cn
+q
+exit
+z trund
+cd
+x tru
+z tru
+whee
+cn
+bi zed
+zed
+zed .
+lg
+nr
+z trund
+l
+whee
+lg
+gh
+bi gh
+gh auth init
+gh auth login
+whee
+cu
+cn
+yay
+cn
+lg
+yay
+cd trun
+z tr
+yay
+lg
+yay
+lg
+yay
+ca
+yay
+q
+exit
+z trun
+l
+nr
+z trun
+x tru
+x trund
+ls
+cd Documents/
+ls
+cd cs178
+cd trun
+ls
+cd trundle
+x trund
+cd docum
+cd Documents/
+cd cs178/
+cd trundle
+yay
+lg
+x trund
+help
+nu.c
+config nu
+config 
+ls
+cd documents
+z trun
+x trund
+ztrun
+ls
+cd Documents/
+z ps70
+ls
+bun help
+bun create svelte
+ls
+cd mandala
+yay
+ls
+./node_modules/.bin/vite
+yay
+bun run dev
+..
+cd tr
+z tru
+yay
+..
+z man
+yay
+bun run dev
+bun help
+bun add vite
+yay
+bun add vite
+yay
+bun install p5
+yay
+z ma
+yay
+cd
+cn
+config nu
+config
+cn
+l
+mkdir myfigs
+c myfigs
+l
+git init
+git config --global init.defaultBranch main
+l
+la
+rm .git
+rm -rf .git
+l
+git init
+gh
+gh repo create
+cn
+cp `~/Library/Application Support/nushell/` nushell/
+l
+cp `~/Library/Application Support/nushell/` nushell
+rm -rf nushell; ln -s ~/myfigs/nushell `~/Library/Application Support/nushell`
+l
+c nushell
+l
+cn
